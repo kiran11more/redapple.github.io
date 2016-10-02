@@ -1,0 +1,267 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#2e2e2e;
+	background:rgba(255,204,204,1);
+}
+ul {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+}
+img {
+	border:none;
+	max-width:100%;
+	height:auto;
+}
+.wrapper {
+	width:100%;
+	height:100%;
+}
+#working_area{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+header {
+	width:960px;
+	min-height:180px;
+	float:left;
+	position:fixed;
+	top:0;
+	background:rgba(255,204,204,1);
+	z-index:999;
+}
+hgroup {
+	width:auto;
+	height:auto;
+	float:left;
+	margin:20px 0 0 0;
+}
+.search {
+	width:210px;
+	height:auto;
+	float:right;
+	margin:35px 0 0 0;
+}
+.search form input {
+	width:150px;
+	height:28px;
+	border:none;
+	border-radius:5px 0 0 5px;
+	float:left;
+	border-right:none;
+	outline:none;
+	border:2px solid #F33;
+	padding:0 0 0 10px;
+	box-shadow:3px 3px #CCCCCC;
+}
+
+.search form input[type="submit"] {
+	width:28px;
+	height:32px;
+	border:none;
+	border:2px solid #F33;
+	box-shadow:3px 3px #CCCCCC;
+	border-left:none;
+	border-radius:0 5px 5px 0px;
+	font-size:0px;
+	cursor:pointer;
+	background:url(../images/search_icon.png) left center no-repeat;
+}
+.search form input::-webkit-input-placeholder {
+	color:#2e2e2e;
+	padding:0 0 0 10px;
+}
+.search ul li {
+	float:left;
+	margin:0px 0 20px 4px;
+}
+#cssmenu {
+	background:#F33;
+	border-radius:5px;;
+	}
+#cssmenu ul ul li a{
+	background:#F33;
+	border-bottom:1px solid #666;
+	}
+nav {
+	width:960px;
+	height:auto;
+	float:left;
+	background:#333333;
+	z-index:99999;
+	position:fixed;
+	top:180px;
+	background:#fff;
+	z-index:1;
+}
+figure {
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:5px;
+	position:relative;
+	margin:240px 0 0 0;
+}
+section {
+	width:100%;
+	height:auto;
+	float:left;
+	margin:30px 0 0 0;
+}
+section h1 {
+	font-size:20px;
+	color:#F33;
+	font-weight:normal;
+	font-family:"Snap ITC";	
+	padding:25px 0;
+}
+section img {
+	float:left;
+	margin:0 25px 0 0;
+	border:2px solid #CCCCCC;
+	padding:5px;
+}
+section h2 {
+	font-size:18px;
+	color:#F33;
+	font-weight:normal;
+	font-weight:normal;
+	font-family:"Snap ITC";	
+	padding:0 0;
+}
+section p {
+	padding:20px 0 0 0;
+	text-align:justify;
+}
+section a {
+	float:right;
+	color:#666666;
+	margin:16px 0 0 0;
+}
+footer {
+	width:100%;
+	min-height:120px;
+	float:left;
+	background:#F33;
+	padding:30px 0 0 0;
+	text-align:center;
+	margin:25px 0 0 0;
+}
+footer ul li {
+	display:inline-block;
+}
+footer ul li a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	padding:0 25px;
+	text-transform:uppercase;
+}
+footer ul li a:hover, footer ul li a.footeract {
+	color:rgba(0,0,0,1);
+}
+footer p {
+	padding:25px 0 0 0;
+	color:#000000;
+}
+footer span {
+	color:#0e79e7;
+}
+/*gallrey*/
+.gallery {
+	width:100%;
+	height:auto;
+	float:left;
+	margin:240px 0 0 0;
+}
+.gallery_inner {
+	width:30%;
+	height:auto;
+	float:left;
+	margin:0 0 0 4.5%;
+	transition:all 0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+	overflow:hidden;
+}
+.gallery_inner:hover {
+	box-shadow:0 0 20px #12bcdb;
+}
+.gallery h1 {
+	text-align:center;
+	font-style:normal;
+	font-family:"Snap ITC";
+	color:#F33;
+}
+.gallery_inner img {
+	margin:0 0 0 0;
+	width:100%;
+	padding:0;
+}
+.gallery_im {
+	margin-left:0px;
+}
+#cssmenu .submenu-button.submenu-opened {
+	background:#900;
+	}
+section + section img{
+		float:right;
+		margin:0 0 0 25px;
+	}
+.gallery a {
+	margin-top:0px;
+	}
+/*contact us*/
+.contact{
+	width:100%;
+	height:auto;
+	float:left;
+	overflow:hidden;
+	margin:240px 0 0 0;
+	}
+.contact h1{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:20px;
+	line-height:38px;
+	padding:0 0 5px 50px;
+	border-bottom:4px solid #F33;
+	text-shadow:3px 3px #CCCCCC;
+	color:#F33;
+	}
+.contact input{
+	width:400px;
+	height:40px;
+	background:none;
+	border:none;
+	border:2px solid #F33;
+	padding:0 0 0 10px;
+	margin:30px 0 0 50px;
+	border-radius:5px;
+	box-shadow:3px 3px #CCCCCC;
+	}
+.contact textarea{
+	width:400px;
+	height:150px;
+	background:none;
+	border:none;
+	border:2px solid #F33;
+	padding:0 0 0 10px;
+	margin:30px 0 0 50px;
+	border-radius:5px;
+	}
+.contact input[type="submit"]{
+	width:100px;
+	height:40px;
+	background:none;
+	border:none;
+	border:2px solid #F33;
+	padding:0 0 0 10px;
+	margin:30px 0 50px 50px;
+	border-radius:5px;
+	}

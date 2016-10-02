@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+	#main_area {
+		width:95%;
+		margin:0 2%;
+	}
+	.col1 {
+		width:99%;
+		border-bottom:1px solid grey;
+	}
+}
